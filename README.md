@@ -1,4 +1,4 @@
-Exercies du jour sur la BDD
+#Exercies du jour sur la BDD
 
 ## a) Niveau facile
 ### Quel est le nombre total d'objets Album contenus dans la base (sans regarder les id bien sûr) ?
@@ -27,7 +27,7 @@ Album.where("artist like ?", "%AC/DC%").count
 Track.where(duration: 158589).count
 
 ## c) Niveau Difficile
-* Pour ces questions, tu vas devoir effectuer des boucles dans la console Rails. C'est peu commun mais c'est faisable, tout comme dans IRB. *
+*Pour ces questions, tu vas devoir effectuer des boucles dans la console Rails. C'est peu commun mais c'est faisable, tout comme dans IRB.*
 
 ### puts en console tous les titres de AC/DC.
 acdc_tracks = Track.where(artist: AC/DC")
