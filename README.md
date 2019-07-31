@@ -1,4 +1,4 @@
-#Exercies du jour sur la BDD
+# Exercies du jour sur la BDD avec Active Record
 
 ## a) Niveau facile
 ### Quel est le nombre total d'objets Album contenus dans la base (sans regarder les id bien sûr) ?
