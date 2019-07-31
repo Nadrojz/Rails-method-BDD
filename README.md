@@ -48,3 +48,7 @@ dp_tracks = Track.where(artist: "Deep Purple")
 dp_tracks.sum(&:price)
 
 ### Modifie (via une boucle) tous les titres de "Eric Clapton" afin qu'ils soient affichés avec "Britney Spears" en artist.
+eric_to_britney = Track.where(artist: "Eric Clapton")
+eric_to_britney.each do |track|
+track.update(artist: "Britney Spears")
+end
