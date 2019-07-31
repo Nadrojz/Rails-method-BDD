@@ -21,7 +21,7 @@ Album.where("title like ?", "%Great%").count
 Album.where("title like ?", "%music%").destroy_all
 
 ### Combien y a t'il d'albums écrits par AC/DC ?
-Album.where("artist like ?", "%AC/DC%").count
+Album.where(artist: "AC/DC").count
 
 ### Combien de chanson durent exactement 158589 millisecondes ?
 Track.where(duration: 158589).count
